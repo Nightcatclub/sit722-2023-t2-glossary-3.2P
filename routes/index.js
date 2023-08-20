@@ -109,7 +109,7 @@ router.get('/', function(req, res, next) {
     },
   ];
 
-  res.render('index', { title: 'DevOps Terms', terms: terms });
+  res.render('index', { title: 'Sit 722 DevOps Glossary', terms: terms });
 });
 
 module.exports = router;
